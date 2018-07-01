@@ -1,1 +1,1 @@
-include ':app', ':ZLUtil', ':ZLClient'
+include ':app', ':ZLUtil', ':ZLClient', ':ZLSerialPort', ':ZLBLE', ':ZLSocket'
