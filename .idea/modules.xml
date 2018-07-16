@@ -3,18 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZLBLE/ZLBLE.iml" filepath="$PROJECT_DIR$/ZLBLE/ZLBLE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLBLE/ZLBLE.iml" filepath="$PROJECT_DIR$/ZLBLE/ZLBLE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLClient/ZLClient.iml" filepath="$PROJECT_DIR$/ZLClient/ZLClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZLClient/ZLClient.iml" filepath="$PROJECT_DIR$/ZLClient/ZLClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZLSDK.iml" filepath="$PROJECT_DIR$/ZLSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLSDK.iml" filepath="$PROJECT_DIR$/ZLSDK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLSerialPort/ZLSerialPort.iml" filepath="$PROJECT_DIR$/ZLSerialPort/ZLSerialPort.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZLSerialPort/ZLSerialPort.iml" filepath="$PROJECT_DIR$/ZLSerialPort/ZLSerialPort.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZLSocket/ZLSocket.iml" filepath="$PROJECT_DIR$/ZLSocket/ZLSocket.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLSocket/ZLSocket.iml" filepath="$PROJECT_DIR$/ZLSocket/ZLSocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/ZLUtil/ZLUtil.iml" filepath="$PROJECT_DIR$/ZLUtil/ZLUtil.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZLUtil/ZLUtil.iml" filepath="$PROJECT_DIR$/ZLUtil/ZLUtil.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
