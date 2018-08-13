@@ -8,10 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ZLBLE" />
             <option value="$PROJECT_DIR$/ZLClient" />
-            <option value="$PROJECT_DIR$/ZLSerialPort" />
-            <option value="$PROJECT_DIR$/ZLSocket" />
             <option value="$PROJECT_DIR$/ZLUtil" />
             <option value="$PROJECT_DIR$/app" />
           </set>

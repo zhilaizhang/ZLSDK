@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.zlzhang.sdk.R;
-import com.zlzhang.serialport.SerialPortManager;
-import com.zlzhang.serialport.listener.OnSerialPortListener;
+//import com.zlzhang.serialport.SerialPortManager;
+//import com.zlzhang.serialport.listener.OnSerialPortListener;
 
 /**
  * Created by zhangzhilai on 2018/7/1.
@@ -27,32 +27,32 @@ public class ZLSerialPortActivity extends Activity {
 
 
     public void openSerialPort(View view) {
-        SerialPortManager.getInstance(mContext).configSerialPort(new OnSerialPortListener() {
-            @Override
-            public void onOpened(int status) {
-                
-            }
-
-            @Override
-            public void onClosed() {
-
-            }
-
-            @Override
-            public void onRead(byte[] address, byte[] content, int size) {
-
-            }
-
-            @Override
-            public void onReadRaw(byte[] rawData, int size) {
-
-            }
-
-            @Override
-            public void onWrite(byte[] content) {
-
-            }
-        });
+//        SerialPortManager.getInstance(mContext).configSerialPort(new OnSerialPortListener() {
+//            @Override
+//            public void onOpened(int status) {
+//
+//            }
+//
+//            @Override
+//            public void onClosed() {
+//
+//            }
+//
+//            @Override
+//            public void onRead(byte[] address, byte[] content, int size) {
+//
+//            }
+//
+//            @Override
+//            public void onReadRaw(byte[] rawData, int size) {
+//
+//            }
+//
+//            @Override
+//            public void onWrite(byte[] content) {
+//
+//            }
+//        });
     }
 
     @Override
