@@ -30,7 +30,7 @@ public class ZLSerialPortActivity extends Activity {
         SerialPortManager.getInstance(mContext).configSerialPort(new OnSerialPortListener() {
             @Override
             public void onOpened(int status) {
-                
+
             }
 
             @Override
