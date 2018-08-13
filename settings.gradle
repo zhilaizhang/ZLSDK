@@ -1,2 +1,3 @@
-//include ':app', ':ZLUtil', ':ZLClient', ':ZLSerialPort', ':ZLBLE', ':ZLSocket'
-include ':ZLUtil'
+include ':app', ':ZLUtil', ':ZLClient', ':ZLSerialPort', ':ZLBLE', ':ZLSocket'
+//include ':app', ':ZLUtil', ':ZLClient'
+//include ':ZLClient'
