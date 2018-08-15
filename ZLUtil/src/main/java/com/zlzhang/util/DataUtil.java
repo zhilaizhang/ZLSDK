@@ -1,6 +1,8 @@
 package com.zlzhang.util;
 
-<<<<<<< HEAD
+import java.math.BigDecimal;
+import java.util.List;
+
 /**
  * Created by zhilaizhang on 17/7/8.
  * decimal-binary conversion
@@ -127,17 +129,7 @@ public class DataUtil {
         return b;
     }
 
-    /**
-     * 将byte数组转为16进制数
-=======
-import java.math.BigDecimal;
-import java.util.List;
 
-/**
- * Created by zhangzhilai on 2017/12/22.
- */
-
-public class DataUtil {
     /**
      * <p>List 转化为 数组</p>
      *
@@ -271,39 +263,7 @@ public class DataUtil {
     }
 
 
-    /**
-     * byte数组转化为long   余浩
->>>>>>> 465f09234b1004b7b1e0cc7bc2b841d08c997c3b
-     *
-     * @param b
-     * @return
-     */
-<<<<<<< HEAD
-    public static String bytes2Hex(byte[] b) {
-        String hs = "";
-        String stmp = "";
-        for (int n = 0; n < b.length; n++) {
-            stmp = (Integer.toHexString(b[n] & 0XFF));
-            if (stmp.length() == 1) {
-                hs = hs + "0" + stmp;
-            } else {
-                hs = hs + stmp;
-            }
-        }
-        return hs.toUpperCase();
-    }
 
-    /**
-     * 将byte转为16进制数
-     *
-     * @param b
-     * @return
-     */
-    public static String byte2Hex(byte b) {
-        byte[] bytes = new byte[1];
-        bytes[0] = b;
-        return bytes2Hex(bytes);
-    }
 
     /**
      * 将int转为16进制数
@@ -432,16 +392,7 @@ public class DataUtil {
         }
     }
 
-    /**
-     * 将数字转换成字母
-     *
-     * @param input
-     */
-    public static void numToLetter(String input) {
-        for (byte b : input.getBytes()) {
-            System.out.print((char) (b + 48));
-        }
-=======
+
     public static long byteToLong(byte[] b, int begin) {
         long s = 0;
         long s0 = b[begin++] & 0xff;// 最低位
@@ -671,6 +622,5 @@ public class DataUtil {
             bits[i * 8 + 7] = (bytes[i] & 128) == 128 ? one : zero;
         }
         return bits;
->>>>>>> 465f09234b1004b7b1e0cc7bc2b841d08c997c3b
     }
 }

@@ -71,7 +71,7 @@ public class DateUtil {
         calendar.setTime(currentDate);
         int i = 0;
         while (i < days) {
-            calendar.add(Calendar.DATE, 1);
+            calendar.add(Calendar.DATE, -1);
             i++;
             if (calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY ||
                     calendar.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY) {
